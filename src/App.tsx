@@ -41,7 +41,7 @@ function App() {
   // Crear participante
   const createParticipant = async () => {
     if (!newName.trim()) {
-      setError('Escribe un nombre');
+      setError('Escribe un nombre ');
       return;
     }
 
