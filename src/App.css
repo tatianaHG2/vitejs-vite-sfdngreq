@@ -1,0 +1,86 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+nav button {
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+nav button:hover {
+  background: rgba(255,255,255,0.3);
+  transform: translateY(-2px);
+}
+
+.token-form {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+.token-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.token-form button {
+  width: 100%;
+  padding: 10px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quiniela-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.quiniela-table th,
+.quiniela-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.quiniela-table th {
+  background: #f5f5f5;
+}
+
+.bracket-placeholder {
+  text-align: center;
+  padding: 60px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  color: #666;
+}
